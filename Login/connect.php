@@ -1,12 +1,12 @@
 <?php
 
-$servername = "localhost";          // Server name remains localhost
-$username = "root";                // Update with your database username
-$password = "";                   // Update with your database password
-$database = "NDAS";              // Update with your database name
+$servername = "NDAS";          // Server name remains localhost
+$sname = "";                  // Update with your database username
+$iDs = "";                   // Update with your database password
+$database = "NDASdb";       // Update with your database name
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $sname, $iDs, $database);
 
 // Check connection
 if ($conn->connect_error) {
