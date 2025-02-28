@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="signIn">
+    <h1 class="form-title">Login</h1>
+    <form method="post" action="register.php" id="registerForm">
+      <div class="input-group">
+         <i class="fas fa-user"></i>
+         <input type="text" name="sname" id="sname" placeholder="Student_Name" required>
+         <label for="sname">Student Name</label>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="text" name="iDs" id="iDs" placeholder="ID_Student" required>
+        <label for="iDs">ID Student</label>
+      </div>
+      <input type="submit" class="btn" value="Sign In" name="signIn">
+    </form>
+  </div>
+
+  <script src="IDStudent.js"></script>
+  <script src="script.js"></script>
+</body>       
+</html>
