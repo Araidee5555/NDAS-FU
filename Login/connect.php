@@ -6,7 +6,7 @@ $password = "";                   // Update with your database password
 $database = "NDAS";              // Update with your database name
 
 // Create connection
-$conn = new mysqli($servername, $sname, $iDs, $database);
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
 if ($conn->connect_error) {
